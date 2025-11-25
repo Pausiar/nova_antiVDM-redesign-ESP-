@@ -10,7 +10,6 @@ shared_scripts {
 }
 
 client_script "client/client.lua"
-server_scripts { "server/server.lua", "server/editable.lua",
-	--[[server.lua]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'client/lib/.env.js', }
+server_scripts { "server/server.lua", "server/editable.lua"}
 
 dependency 'screenshot-basic'
